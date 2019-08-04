@@ -3724,13 +3724,13 @@ Vout = 4.0V
 R19 = 243R
 R18 = 536R</text>
 <text x="182.88" y="73.66" size="1.778" layer="91">Small
-Vout = 2.0V
-R19 = 243R
-R18 = 147R
-
 Vout = 3V6
 R17 = 243R
-R16 = 453R</text>
+R16 = 453R
+
+Vout = 2.0V
+R19 = 243R
+R18 = 147R</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
