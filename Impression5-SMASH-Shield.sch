@@ -3714,7 +3714,7 @@ NC</text>
 LCD Display</text>
 <text x="88.9" y="73.66" size="1.778" layer="91">Geiger
 Counter</text>
-<text x="165.1" y="96.52" size="1.778" layer="91">7 Segment Display Voltages</text>
+<text x="160.02" y="81.28" size="1.778" layer="91">7 Segment Display Voltages</text>
 <text x="165.1" y="73.66" size="1.778" layer="91">Large
 Vout = 9V2
 R16 = 1551R</text>
@@ -3726,6 +3726,25 @@ R16 = 729R</text>
 <text x="173.736" y="33.274" size="1.778" layer="91">Alternative:
 1500R+51R=1551R
 680R+51R=731R</text>
+<wire x1="2.54" y1="25.4" x2="2.54" y2="21.59" width="0.1524" layer="101"/>
+<wire x1="2.54" y1="21.59" x2="9.144" y2="21.59" width="0.1524" layer="101"/>
+<wire x1="9.144" y1="21.59" x2="9.144" y2="25.4" width="0.1524" layer="101"/>
+<wire x1="9.144" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="101"/>
+<wire x1="70.358" y1="75.692" x2="70.358" y2="72.644" width="0.1524" layer="101"/>
+<wire x1="70.358" y1="72.644" x2="75.692" y2="72.644" width="0.1524" layer="101"/>
+<wire x1="75.692" y1="72.644" x2="75.692" y2="75.692" width="0.1524" layer="101"/>
+<wire x1="75.692" y1="75.692" x2="70.358" y2="75.692" width="0.1524" layer="101"/>
+<wire x1="11.684" y1="85.852" x2="11.684" y2="83.312" width="0.1524" layer="101"/>
+<wire x1="11.684" y1="83.312" x2="6.858" y2="83.312" width="0.1524" layer="101"/>
+<wire x1="6.858" y1="83.312" x2="6.858" y2="85.852" width="0.1524" layer="101"/>
+<wire x1="6.858" y1="85.852" x2="11.684" y2="85.852" width="0.1524" layer="101"/>
+<wire x1="133.096" y1="25.146" x2="133.096" y2="22.098" width="0.1524" layer="101"/>
+<wire x1="133.096" y1="22.098" x2="129.032" y2="22.098" width="0.1524" layer="101"/>
+<wire x1="129.032" y1="22.098" x2="129.032" y2="25.146" width="0.1524" layer="101"/>
+<wire x1="129.032" y1="25.146" x2="133.096" y2="25.146" width="0.1524" layer="101"/>
+<text x="149.86" y="27.94" size="1.778" layer="101">Note -
+D2 is used in TWO places, on J8 Mosfet control and Geiger Counter Pulse Interupt
+D9 is used in TWO places, on J1 Mosfet control and Relay Board control</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
