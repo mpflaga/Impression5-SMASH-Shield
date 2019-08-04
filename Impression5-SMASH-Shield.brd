@@ -1773,7 +1773,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="76.835" y="26.9748" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="76.2" y="33.02" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R16" library="SparkFun" package="AXIAL-0.3" value="10k" x="71.12" y="33.655" smashed="yes">
+<element name="R16" library="SparkFun" package="AXIAL-0.3" value="1551R or 729R" x="71.12" y="33.655" smashed="yes">
 <attribute name="NAME" x="76.2" y="33.02" size="1.016" layer="25"/>
 </element>
 <element name="R17" library="SparkFun" package="AXIAL-0.3" value="243" x="71.12" y="31.115" smashed="yes">
@@ -3486,7 +3486,7 @@ design rules under a new name.</description>
 <signal name="N$137">
 <via x="19.05" y="50.8" extent="1-16" drill="1.1" diameter="1.8796"/>
 </signal>
-<signal name="8/5V">
+<signal name="9/5V">
 <contactref element="J47" pad="7"/>
 <contactref element="R17" pad="P$1"/>
 <contactref element="IC4" pad="2"/>

@@ -3691,7 +3691,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="R12" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
 <part name="IC4" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
-<part name="R16" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
+<part name="R16" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="1551R or 729R"/>
 <part name="R17" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="243"/>
 <part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
 <part name="R18" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="729R"/>
@@ -3716,12 +3716,15 @@ LCD Display</text>
 Counter</text>
 <text x="165.1" y="96.52" size="1.778" layer="91">7 Segment Display Voltages</text>
 <text x="165.1" y="73.66" size="1.778" layer="91">Large
-Vout = 7V2
-R16 = 1150R</text>
+Vout = 9V2
+R16 = 1551R</text>
 <text x="182.88" y="73.66" size="1.778" layer="91">Small
-Vout = 3V6
-R16 = 453R</text>
+Vout = 5V0
+R16 = 729R</text>
 <text x="198.882" y="39.116" size="1.778" layer="91">Alternative:
+680R+51R=731R</text>
+<text x="173.736" y="33.274" size="1.778" layer="91">Alternative:
+1500R+51R=1551R
 680R+51R=731R</text>
 </plain>
 <instances>
@@ -4193,7 +4196,7 @@ R16 = 453R</text>
 </instance>
 <instance part="R16" gate="G$1" x="172.72" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="171.2214" y="41.91" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="176.022" y="41.91" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="173.99" y="42.418" size="1.778" layer="96"/>
 </instance>
 <instance part="R17" gate="G$1" x="180.34" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="184.15" y="49.3014" size="1.778" layer="95" rot="R180"/>
@@ -5796,7 +5799,7 @@ R16 = 453R</text>
 <label x="144.78" y="121.92" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="8/5V" class="0">
+<net name="9/5V" class="0">
 <segment>
 <label x="182.88" y="66.04" size="1.778" layer="95"/>
 <pinref part="R17" gate="G$1" pin="1"/>
