@@ -3692,10 +3692,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="R12" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
 <part name="IC4" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
 <part name="R16" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
-<part name="R17" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
+<part name="R17" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="243"/>
 <part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
-<part name="R18" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
-<part name="R19" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
+<part name="R18" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="729R"/>
+<part name="R19" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="243"/>
 </parts>
 <sheets>
 <sheet>
@@ -3717,20 +3717,12 @@ Counter</text>
 <text x="165.1" y="96.52" size="1.778" layer="91">7 Segment Display Voltages</text>
 <text x="165.1" y="73.66" size="1.778" layer="91">Large
 Vout = 7V2
-R17 = 243R
-R16 = 1150R
-
-Vout = 4.0V
-R19 = 243R
-R18 = 536R</text>
+R16 = 1150R</text>
 <text x="182.88" y="73.66" size="1.778" layer="91">Small
 Vout = 3V6
-R17 = 243R
-R16 = 453R
-
-Vout = 2.0V
-R19 = 243R
-R18 = 147R</text>
+R16 = 453R</text>
+<text x="198.882" y="39.116" size="1.778" layer="91">Alternative:
+680R+51R=731R</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -4213,7 +4205,7 @@ R18 = 147R</text>
 </instance>
 <instance part="R18" gate="G$1" x="198.12" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="196.6214" y="41.91" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="41.91" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="199.39" y="44.958" size="1.778" layer="96"/>
 </instance>
 <instance part="R19" gate="G$1" x="205.74" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="209.55" y="49.3014" size="1.778" layer="95" rot="R180"/>
@@ -5820,7 +5812,7 @@ R18 = 147R</text>
 <label x="104.14" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="4/2V" class="0">
+<net name="5VL" class="0">
 <segment>
 <label x="208.28" y="66.04" size="1.778" layer="95"/>
 <pinref part="R19" gate="G$1" pin="1"/>
